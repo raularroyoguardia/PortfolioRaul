@@ -141,6 +141,7 @@ h1, h2 {
         opacity: 0;
         transform: translateY(-20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -152,6 +153,7 @@ h1, h2 {
         opacity: 0;
         transform: translateY(20px);
     }
+
     to {
         opacity: 1;
         transform: translateY(0);
@@ -162,6 +164,7 @@ h1, h2 {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -198,21 +201,24 @@ h1, h2 {
     margin-top: 2rem;
 }
 
-.sklill-item {
-    background-color: rgba(255, 255, 255, 0.1);
+.skill-item {
+    background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 15px;
     padding: 1.5rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
 
-.skill-icon {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+.skill-icon img {
+    width: 50px;
+}
+
+/* PROJECTS SECTION */
+#projects .container {
+    text-align: center;
 }
